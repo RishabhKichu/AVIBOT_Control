@@ -66,11 +66,11 @@ Container already running, and you need another terminal inside it:
 
 ### 1. Connect the hardware
 
-| Device | USB port             | Symlink created by udev |
-| ------ | -------------------- | ----------------------- |
-| ESP32  | USB 3.0, top left    | `/dev/esp32_microros`   |
-| LiDAR  | USB 3.0, bottom left | `/dev/ydlidar`          |
-| Camera | Any port             | default - `/dev/video0` |
+| Device | USB port        | Symlink created by udev |
+| ------ | --------------- | ----------------------- |
+| ESP32  | USB 3.0, bottom | `/dev/esp32_microros`   |
+| LiDAR  | USB 3.0, top    | `/dev/ydlidar`          |
+| Camera | Any port        | default - `/dev/video0` |
 
 > The Pi renames serial ports **by physical port**, so plug each device into its assigned port. Swapping them swaps the names.
 
